@@ -18,7 +18,7 @@ const [nav, setNav] = useState(false)
           className='cursor-pointer'>
               <AiOutlineMenu size={30} />
           </div>
-          <a><img className='left-0' src={Logo} width="100" alt='/' /></a>
+          <img className='left-0' src={Logo} width="100" alt='/' />
     
           <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
             <p className='bg-black text-white rounded-full'>Delivery</p>
