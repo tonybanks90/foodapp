@@ -4,6 +4,7 @@ import { BsFillCartFill,BsFillSaveFill } from 'react-icons/bs';
 import {TbTruckDelivery} from 'react-icons/tb'
 import {FaUserFriends, FaWallet} from 'react-icons/fa'
 import {MdFavorite, MdHelp} from 'react-icons/md'
+import Logo from '../assets/hdiplogo.jpeg'
 
 
 const Navbar = () => {
@@ -17,9 +18,8 @@ const [nav, setNav] = useState(false)
           className='cursor-pointer'>
               <AiOutlineMenu size={30} />
           </div>
-          <h1 className='text-2xl sm:text-3xl ld:text-4xl px-2'>
-              Food <span className='font-bold'>App</span>
-          </h1>
+          <a><img className='left-0' src={Logo} width="100" alt='/' /></a>
+    
           <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
             <p className='bg-black text-white rounded-full'>Delivery</p>
             <p className='p-2'>Pickup</p>
